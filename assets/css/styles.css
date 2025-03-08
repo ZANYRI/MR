@@ -208,7 +208,6 @@ ul li {
     opacity: 1;
 }
 
-/* Рамки для разделов в правой колонке */
 .right-column section {
     background-color: #fff;
     border-radius: 15px;
@@ -217,22 +216,19 @@ ul li {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Рамка для раздела "Образование" */
 .right-column .education {
-    border: 3px solid #ff6b6b; /* Красный цвет */
+    border: 3px solid #ff6b6b; 
 }
 
-/* Рамка для раздела "Hard Skills" */
 .right-column .skills {
-    border: 3px solid #4ecdc4; /* Бирюзовый цвет */
+    border: 3px solid #4ecdc4;
 }
 
 /* Рамка для раздела "Soft Skills" */
 .right-column .soft-skills {
-    border: 3px solid #ff9f43; /* Оранжевый цвет */
+    border: 3px solid #ff9f43; 
 }
 
-/* Дополнительные стили для заголовков внутри рамок */
 .right-column section h2 {
     margin-top: 0;
     font-size: 2rem;
@@ -241,7 +237,6 @@ ul li {
     padding-bottom: 10px;
 }
 
-/* Стили для текста внутри рамок */
 .right-column section p,
 .right-column section .skills-grid {
     font-size: 1.1rem;
