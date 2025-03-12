@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang-ru="Резюме | Фенев Данил" data-lang-en="Resume | Danil Fenev">Резюме | Фенев Данил</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/image/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <div class="container">
+        <header class="header">
+            <div class="profile">
+                <img src="assets/image/photo.jpg" alt="Фото Фенева Данила" class="profile-photo">
+                <div class="profile-info">
+                    <h1 data-lang-ru="Фенев Данил" data-lang-en="Danil Fenev">Фенев Данил</h1>
+                    <p data-lang-ru="Full-Stack разработчик" data-lang-en="Full-Stack Developer">Full-Stack разработчик</p>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="contact-info">
+                    <p class="location" onclick="openLocation('Новочеркасск')"><i class="fas fa-map-marker-alt"></i> <span data-lang-ru="Новочеркасск" data-lang-en="Novocherkassk">Новочеркасск</span></p>
+                    <p class="copyable" onclick="copyToClipboard('zanyri@yandex.ru')"><i class="fas fa-envelope"></i><a href="mailto:zanyri@yandex.ru">zanyri@yandex.ru</a></p>
+                    <p><i class="fab fa-telegram"></i><a href="https://t.me/ZANYRI" class="telegram-link">@ZANYRI</a></p>
+                    <p><a href="https://github.com/ZANYRI" target="_blank"><i class="fab fa-github"></i> <span>ZANYRI</span></a></p>
+                </div>
+                <div class="language-switcher">
+                    <button onclick="changeLanguage('ru')">Русский</button>
+                    <button onclick="changeLanguage('en')">English</button>
+                </div>
+            </div>
+        </header>
+
+        <div class="content">
+            <div class="left-column">
+                <section class="about">
+                    <h2 data-lang-ru="О себе" data-lang-en="About Me">О себе</h2>
+                    <p data-lang-ru="Я Full-Stack разработчик с опытом создания веб– и мобильных приложений, а также участия в проектах по развитию IT-инфраструктуры. Владею навыками работы с JavaScript, PostgreSQL, Go (Golang) и Docker." data-lang-en="I am a Full-Stack developer with experience in creating web and mobile applications, as well as participating in projects for the development of IT infrastructure. Proficient in JavaScript, PostgreSQL, Go (Golang), and Docker.">
+                        Я Full-Stack разработчик с опытом создания веб– и мобильных приложений, а также участия в проектах по развитию IT-инфраструктуры. Владею навыками работы с JavaScript, React, PostgreSQL, Go (Golang) и Docker.
+                    </p>
+                    <ul>
+                        <li data-lang-ru="Создал расширение для браузера на Node.js и React для автоматизации сбора данных о кандидатах, что повысило эффективность HR-отдела." data-lang-en="Created a browser extension using Node.js and React to automate candidate data collection, improving HR department efficiency.">Создал расширение для браузера на Node.js и React для автоматизации сбора данных о кандидатах, что повысило эффективность HR-отдела.</li>
+                        <li data-lang-ru="Имею опыт разработки микросервисов на Go (Golang) с использованием фреймворка Gin для создания высокопроизводительных RESTful API." data-lang-en="Experienced in developing microservices in Go (Golang) using the Gin framework to create high-performance RESTful APIs.">Имею опыт разработки микросервисов на Go (Golang) с использованием фреймворка Gin для создания высокопроизводительных RESTful API.</li>
+                        <li data-lang-ru="Участвовал в проектах по оптимизации и развитию IT-инфраструктуры, включая настройку CI/CD-процессов и автоматизацию развертывания с использованием Docker." data-lang-en="Participated in projects to optimize and develop IT infrastructure, including setting up CI/CD processes and deployment automation using Docker.">Участвовал в проектах по оптимизации и развитию IT-инфраструктуры, включая настройку CI/CD-процессов и автоматизацию развертывания с использованием Docker.</li>
+                    </ul>
+                </section>
+
+                <section class="experience">
+                    <h2 data-lang-ru="Опыт работы" data-lang-en="Experience">Опыт работы</h2>
+                    <div class="job">
+                        <h3 data-lang-ru="Специалист по внедрению информационных систем" data-lang-en="Information Systems Implementation Specialist">Специалист по внедрению информационных систем</h3>
+                        <p><strong data-lang-ru="ПАО 'РОСТВЕРТОЛ'" data-lang-en="PJSC 'ROSTVERTOL'">ПАО "РОСТВЕРТОЛ"</strong> | <span data-lang-ru="Август 2024 – Декабрь 2024" data-lang-en="August 2024 – December 2024">Август 2024 – Декабрь 2024</span></p>
+                        <ul>
+                            <li data-lang-ru="Администрирование и поддержка информационных систем." data-lang-en="Administration and support of information systems.">Администрирование и поддержка информационных систем.</li>
+                            <li data-lang-ru="Настройка прав доступа и консультирование пользователей." data-lang-en="Configuring access rights and consulting users.">Настройка прав доступа и консультирование пользователей.</li>
+                            <li data-lang-ru="Техническая поддержка устройств и устранение неполадок." data-lang-en="Technical support for devices and troubleshooting.">Техническая поддержка устройств и устранение неполадок.</li>
+                        </ul>
+                    </div>
+                    <div class="job">
+                        <h3 data-lang-ru="Фриланс-разработчик (курсовые и учебные проекты)" data-lang-en="Freelance Developer (Course and Academic Projects)">Фриланс-разработчик (курсовые и учебные проекты)</h3>
+                        <p><strong data-lang-ru="Самостоятельная работа" data-lang-en="Self-Employed">Самостоятельная работа</strong> | <span data-lang-ru="Сентябрь 2020 – Настоящее время" data-lang-en="September 2020 – Present">Сентябрь 2020 – Настоящее время</span></p>
+                        <ul>
+                            <li data-lang-ru="Создание RESTful API на Go (Golang) с использованием фреймворка Gin." data-lang-en="Creating RESTful APIs in Go (Golang) using the Gin framework.">Создание RESTful API на Go (Golang) с использованием фреймворка Gin.</li>
+                            <li data-lang-ru="Разработка баз данных на PostgreSQL и оптимизация запросов." data-lang-en="Developing databases on PostgreSQL and optimizing queries.">Разработка баз данных на PostgreSQL и оптимизация запросов.</li>
+                            <li data-lang-ru="Автоматизация процессов с использованием Docker." data-lang-en="Process automation using Docker.">Автоматизация процессов с использованием Docker.</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <div class="right-column">
+                <section class="education">
+                    <h2 data-lang-ru="Образование" data-lang-en="Education">Образование</h2>
+                    <p>
+                        <strong data-lang-ru="Южно-Российский государственный политехнический университет имени М.И. Платова, Новочеркасск" data-lang-en="South Russian State Polytechnic University named after M.I. Platov, Novocherkassk">Южно-Российский государственный политехнический университет имени М.И. Платова, Новочеркасск</strong><br>
+                        <span data-lang-ru="Бакалавр | Сентябрь 2020 – Июль 2024" data-lang-en="Bachelor's Degree | September 2020 – July 2024">Бакалавр | Сентябрь 2020 – Июль 2024</span>
+                    </p>
+                </section>
+
+                <section class="skills">
+                    <h2 data-lang-ru="Технические навыки" data-lang-en="Hard Skills">Технические навыки</h2>
+                    <div class="skills-grid">
+                        <div class="skill">JavaScript (Node.js, React)</div>
+                        <div class="skill">SQL (PostgreSQL)</div>
+                        <div class="skill">Go (Golang, Gin)</div>
+                        <div class="skill">Docker</div>
+                        <div class="skill">Git (GitHub, GitVerse)</div>
+                        <div class="skill">CI/CD (Jenkins, GitHub Actions)</div>
+                    </div>
+                </section>
+
+                <section class="soft-skills">
+                    <h2 data-lang-ru="Социальные навыки" data-lang-en="Soft Skills">Социальные навыки</h2>
+                    <div class="skills-grid">
+                        <div class="skill" data-lang-ru="Командная работа" data-lang-en="Teamwork">Командная работа</div>
+                        <div class="skill" data-lang-ru="Креативность" data-lang-en="Creativity">Креативность</div>
+                        <div class="skill" data-lang-ru="Тайм-менеджмент" data-lang-en="Time Management">Тайм-менеджмент</div>
+                        <div class="skill" data-lang-ru="Адаптивность" data-lang-en="Adaptability">Адаптивность</div>
+                        <div class="skill" data-lang-ru="Коммуникация" data-lang-en="Communication">Коммуникация</div>
+                        <div class="skill" data-lang-ru="Решение проблем" data-lang-en="Problem Solving">Решение проблем</div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div id="custom-notification" class="custom-notification">Скопировано!</div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
